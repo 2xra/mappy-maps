@@ -19,10 +19,12 @@ print(US.columns.tolist())
 
 print(US.head())
 
-fuck=US.plot(column='TZ',  cmap='OrRd')
+fuck=US.plot(column='TZ',  cmap='gray', legend=True)
+fuck.set_title('Estimated excess deaths')
+plt.savefig('fuck.jpg')
 plt.show()
 
-plt.savefig('fuck.jpg')
+
 
 
 
