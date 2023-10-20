@@ -1,0 +1,63 @@
+#include s2color
+color background white
+color box  white   
+color textbox white
+color plotregion_line    black
+yesno draw_major_vgrid no
+yesno draw_major_hgrid no
+
+yesno draw_minor_vgrid no
+yesno draw_minor_hgrid no
+
+color p       black
+color p1      black
+color p2      gs10
+color p3      red
+color p4      green
+color p5      navy
+color p6       brown
+color p7      cranberry
+
+linewidth p1 thick
+linewidth p2 thick
+linewidth p3 medium
+linewidth p4 medium
+
+linepattern p1 solid
+linepattern p2 solid
+linepattern p3 solid
+linepattern p4 "-##"
+
+
+color grid         	gs14
+color major_grid   	gs14
+color minor_grid   	gs14
+linepattern grid        solid
+linepattern major_grid  solid
+linepattern minor_grid  solid
+linewidth major_grid    vvthin
+linewidth minor_grid    vvthin
+
+
+clockdir   legend_position  7
+gsize legend_key_gap half_tiny
+gsize legend_row_gap large
+linestyle  legend  none
+numstyle   legend_rows      1
+gsize legend_key_xsize small
+
+// gsize legend_key_ysize medlarge
+// clockdir   legend_position  3
+// numstyle   legend_cols      1
+// yesno legend_stacked yes
+// gsize legend_key_gap half_tiny
+// gsize legend_row_gap large
+// linestyle  legend  none
+
+anglestyle vertical_tick   horizontal
+tickposition axis_tick inside
+ gsize label_gap       zero
+ gsize axis_space      zero
+ gsize axis_title_gap  zero
+ 
+

@@ -1,0 +1,20 @@
+	(1)	(2)	(3)	(4)
+	f2s4_fx			
+f2s4_for_dom_sveny1	8.26	9.67		
+	(3.33)**	(2.12)***		
+f2s4_for_dom_svenf_7to10		4.04		
+		(1.26)***		
+f2s4_for_sveny1			7.53	8.82
+			(3.26)**	(2.25)***
+f2s4_dom_sveny1			-17.01	-13.45
+			(6.89)**	(5.67)**
+f2s4_for_svenf_7to10				4.33
+				(1.41)***
+f2s4_dom_svenf_7to10				-3.59
+				(1.41)**
+Constant	-0.18	-0.26	-0.25	-0.26
+	(0.20)	(0.17)	(0.17)	(0.16)
+Observations	128	128	128	128
+R-squared	0.10	0.26	0.14	0.27
+Robust standard errors in parentheses				
+* significant at 10%; ** significant at 5%; *** significant at 1%				
